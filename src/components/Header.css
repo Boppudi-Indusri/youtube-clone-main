@@ -1,0 +1,71 @@
+.yt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 24px;
+  cursor: pointer;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+}
+
+.header-center input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.mic {
+  margin-left: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.signin-btn {
+  padding: 6px 12px;
+  border: 1px solid #065fd4;
+  color: #065fd4;
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.username {
+  font-weight: bold;
+}

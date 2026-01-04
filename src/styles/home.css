@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  background: #f9f9f9;
+}
+
+.home-content {
+  flex: 1;
+  padding: 16px 24px;
+}
+.home-layout {
+  display: flex;
+}
+
+.home-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
